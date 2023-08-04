@@ -1,0 +1,75 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  border: none;
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.tabs button.active {
+  background-color: #ddd;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+li:nth-child(even) {
+  background-color: antiquewhite;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+form {
+  margin-top: 20px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form select {
+  margin-top: 10px; 
+  max-width: 200px;
+}
+
+
+form button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  max-width: 100px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.black-btn{
+  background-color: black;
+  color: white;
+}
